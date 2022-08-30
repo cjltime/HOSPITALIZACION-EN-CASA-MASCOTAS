@@ -1,7 +1,5 @@
 using System;
-
-
-namespace HospiEnCasa.App.Dominio
+namespace PetCare.App.Dominio
 {
     public enum TipoSigno
     {

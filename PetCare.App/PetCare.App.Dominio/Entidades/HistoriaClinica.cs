@@ -1,13 +1,10 @@
 using System;
-namespace HospiEnCasa.App.Dominio
-
-
+namespace PetCare.App.Dominio
 {
     public class HistoriaClinica
     {
         public int  Id {get;set;} 
-        public string Diagnostico {get;set;}
-        public string Entorno {get;set;}
-        public string Observaciones {get;set;}
+        public System.Collections.Generic.List<Visita> Visitas {get;set;} 
+
     }
 }

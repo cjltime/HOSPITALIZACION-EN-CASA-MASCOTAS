@@ -1,5 +1,5 @@
 using System;
-namespace HospiEnCasa.App.Dominio
+namespace PetCare.App.Dominio
 {
     public class Persona
     {

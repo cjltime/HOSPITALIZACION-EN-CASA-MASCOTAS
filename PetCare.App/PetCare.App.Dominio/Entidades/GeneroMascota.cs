@@ -1,9 +1,6 @@
 using System;
-namespace HospiEnCasa.App.Dominio
+namespace PetCare.App.Dominio
 {
-    /// <summary>
-    /// Lista de generos
-    /// </summary>
     public enum GeneroMascota
     {
         Macho,

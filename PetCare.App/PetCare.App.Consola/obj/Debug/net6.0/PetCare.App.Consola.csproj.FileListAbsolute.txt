@@ -63,3 +63,5 @@ C:\Users\Yuuto\Documents\Code\minTIC\HOSPITALIZACION-EN-CASA-MASCOTAS\PetCare.Ap
 C:\Users\Yuuto\Documents\Code\minTIC\HOSPITALIZACION-EN-CASA-MASCOTAS\PetCare.App\PetCare.App.Consola\obj\Debug\net6.0\PetCare.App.Consola.pdb
 C:\Users\Yuuto\Documents\Code\minTIC\HOSPITALIZACION-EN-CASA-MASCOTAS\PetCare.App\PetCare.App.Consola\obj\Debug\net6.0\PetCare.App.Consola.genruntimeconfig.cache
 C:\Users\Yuuto\Documents\Code\minTIC\HOSPITALIZACION-EN-CASA-MASCOTAS\PetCare.App\PetCare.App.Consola\obj\Debug\net6.0\ref\PetCare.App.Consola.dll
+C:\Users\Yuuto\Documents\Code\minTIC\HOSPITALIZACION-EN-CASA-MASCOTAS\PetCare.App\PetCare.App.Consola\bin\Debug\net6.0\Humanizer.dll
+C:\Users\Yuuto\Documents\Code\minTIC\HOSPITALIZACION-EN-CASA-MASCOTAS\PetCare.App\PetCare.App.Consola\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll

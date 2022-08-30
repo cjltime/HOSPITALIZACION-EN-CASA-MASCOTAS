@@ -4,6 +4,73 @@
     "C:\\Users\\Yuuto\\Documents\\Code\\minTIC\\HOSPITALIZACION-EN-CASA-MASCOTAS\\PetCare.App\\PetCare.App.Persistencia\\PetCare.App.Persistencia.csproj": {}
   },
   "projects": {
+    "C:\\Users\\Yuuto\\Documents\\Code\\minTIC\\HOSPITALIZACION-EN-CASA-MASCOTAS\\PetCare.App\\PetCare.App.Dominio\\PetCare.App.Dominio.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Yuuto\\Documents\\Code\\minTIC\\HOSPITALIZACION-EN-CASA-MASCOTAS\\PetCare.App\\PetCare.App.Dominio\\PetCare.App.Dominio.csproj",
+        "projectName": "PetCare.App.Dominio",
+        "projectPath": "C:\\Users\\Yuuto\\Documents\\Code\\minTIC\\HOSPITALIZACION-EN-CASA-MASCOTAS\\PetCare.App\\PetCare.App.Dominio\\PetCare.App.Dominio.csproj",
+        "packagesPath": "C:\\Users\\Yuuto\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Yuuto\\Documents\\Code\\minTIC\\HOSPITALIZACION-EN-CASA-MASCOTAS\\PetCare.App\\PetCare.App.Dominio\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Yuuto\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "C:\\Users\\Yuuto\\Documents\\Code\\minTIC\\HOSPITALIZACION-EN-CASA-MASCOTAS\\PetCare.App\\PetCare.App.Persistencia\\PetCare.App.Persistencia.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -24,7 +91,12 @@
         },
         "frameworks": {
           "net5.0": {
-            "projectReferences": {}
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\Yuuto\\Documents\\Code\\minTIC\\HOSPITALIZACION-EN-CASA-MASCOTAS\\PetCare.App\\PetCare.App.Dominio\\PetCare.App.Dominio.csproj": {
+                "projectPath": "C:\\Users\\Yuuto\\Documents\\Code\\minTIC\\HOSPITALIZACION-EN-CASA-MASCOTAS\\PetCare.App\\PetCare.App.Dominio\\PetCare.App.Dominio.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -35,29 +107,60 @@
       },
       "frameworks": {
         "net5.0": {
+          "targetAlias": "net5.0",
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[5.0.9, )"
+              "version": "[5.0.0, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[5.0.9, )"
+              "version": "[5.0.0, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[5.0.9, )"
+              "version": "[5.0.0, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[5.0.9, )"
+              "version": "[5.0.0, )"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.422\\RuntimeIdentifierGraph.json"
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

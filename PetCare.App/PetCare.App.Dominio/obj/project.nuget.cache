@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "pkdPknOEovX5qYbIBvIIB+LJ51+48Co/VWC8jdvpQwyqafdbAZ2QGHMjPV2+XCqhIwWua29oGvPkV3icto7H5Q==",
+  "dgSpecHash": "dRXtJYCNO5Gn68yXVS8j/0pOG7c0UVhlZrsIFR0aKEjgiyx1faBMw1GWL7/y48ujuAJZlRF+clRivcQDS8UI3Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\hp\\Documents\\mintic\\petCare.app\\PetCare.App.Dominio\\PetCare.App.Dominio.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\Yuuto\\Documents\\Code\\minTIC\\HOSPITALIZACION-EN-CASA-MASCOTAS\\PetCare.App\\PetCare.App.Dominio\\PetCare.App.Dominio.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Yuuto\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\Yuuto\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\Yuuto\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

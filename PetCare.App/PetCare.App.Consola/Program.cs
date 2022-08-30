@@ -1,7 +1,6 @@
 ﻿using PetCare.App.Dominio;
 using PetCare.App.Persistencia;
 
-
 namespace PetCare.App.Consola
 {
     class program

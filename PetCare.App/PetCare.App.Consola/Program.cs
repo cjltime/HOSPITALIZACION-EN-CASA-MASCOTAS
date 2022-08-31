@@ -14,6 +14,19 @@ namespace PetCare.App.Consola
             
         }
 
+       static void Main(string[] args)
+        {
+            Console.WriteLine("Hello, World Entity framework! ");
+            //AddMascota();
+            BuscarMascota(1);
+            DeleteMascota(2);
+            BuscarMascota(2);
+            DeleteMascota(3);
+            BuscarMascota(3);
+            BuscarMascota(68);
+            
+        }
+
         private static void AddMascota()
         {
             var mascota = new Mascota{
@@ -30,6 +43,29 @@ namespace PetCare.App.Consola
             Console.WriteLine("\nLa Mascota :"+mascota.Nombre+" se adiciono  \n");
             _repoMascota.AddMascota(mascota);
             
+        }
+               
+        
+        private static void BuscarMascota(int idMascota)
+        {
+            var mascota = _repoMascota.GetMascota(idMascota);
+            if (mascota != null)
+            {
+            Console.WriteLine("\nNombre:"+mascota.Nombre+"\nDireccion: "+mascota.DireccionPet);
+            string datos_Mascota = "\nNombre:"+mascota.Nombre +"\nvive en :"+mascota.Ciudad;
+            Console.WriteLine(datos_Mascota);
+            return;
+            } 
+            else
+            {
+                Console.WriteLine("No exite la mascota "+ idMascota); 
+            }
+             
+        }
+        private static void DeleteMascota(int idMascota)
+        {
+            _repoMascota.DeleteMascota(idMascota);
+            Console.WriteLine("Mascota: "+idMascota+"Borrada");
         }
     }
 }

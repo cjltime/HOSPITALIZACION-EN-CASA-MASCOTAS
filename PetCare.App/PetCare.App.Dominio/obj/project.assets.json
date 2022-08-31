@@ -8,19 +8,19 @@
     "net5.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Yuuto\\.nuget\\packages\\": {}
+    "C:\\Users\\pipeo\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Yuuto\\Documents\\Code\\minTIC\\HOSPITALIZACION-EN-CASA-MASCOTAS\\PetCare.App\\PetCare.App.Dominio\\PetCare.App.Dominio.csproj",
+      "projectUniqueName": "C:\\HOSPITALIZACION-EN-CASA-MASCOTAS\\PetCare.App\\PetCare.App.Dominio\\PetCare.App.Dominio.csproj",
       "projectName": "PetCare.App.Dominio",
-      "projectPath": "C:\\Users\\Yuuto\\Documents\\Code\\minTIC\\HOSPITALIZACION-EN-CASA-MASCOTAS\\PetCare.App\\PetCare.App.Dominio\\PetCare.App.Dominio.csproj",
-      "packagesPath": "C:\\Users\\Yuuto\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Yuuto\\Documents\\Code\\minTIC\\HOSPITALIZACION-EN-CASA-MASCOTAS\\PetCare.App\\PetCare.App.Dominio\\obj\\",
+      "projectPath": "C:\\HOSPITALIZACION-EN-CASA-MASCOTAS\\PetCare.App\\PetCare.App.Dominio\\PetCare.App.Dominio.csproj",
+      "packagesPath": "C:\\Users\\pipeo\\.nuget\\packages\\",
+      "outputPath": "C:\\HOSPITALIZACION-EN-CASA-MASCOTAS\\PetCare.App\\PetCare.App.Dominio\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Yuuto\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\pipeo\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
@@ -54,6 +54,20 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[5.0.0, 5.0.0]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[5.0.0, 5.0.0]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[5.0.0, 5.0.0]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"

@@ -6039,19 +6039,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Yuuto\\.nuget\\packages\\": {}
+    "C:\\Users\\pipeo\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Yuuto\\Documents\\Code\\minTIC\\HOSPITALIZACION-EN-CASA-MASCOTAS\\PetCare.App\\PetCare.App.Consola\\PetCare.App.Consola.csproj",
+      "projectUniqueName": "C:\\HOSPITALIZACION-EN-CASA-MASCOTAS\\PetCare.App\\PetCare.App.Consola\\PetCare.App.Consola.csproj",
       "projectName": "PetCare.App.Consola",
-      "projectPath": "C:\\Users\\Yuuto\\Documents\\Code\\minTIC\\HOSPITALIZACION-EN-CASA-MASCOTAS\\PetCare.App\\PetCare.App.Consola\\PetCare.App.Consola.csproj",
-      "packagesPath": "C:\\Users\\Yuuto\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Yuuto\\Documents\\Code\\minTIC\\HOSPITALIZACION-EN-CASA-MASCOTAS\\PetCare.App\\PetCare.App.Consola\\obj\\",
+      "projectPath": "C:\\HOSPITALIZACION-EN-CASA-MASCOTAS\\PetCare.App\\PetCare.App.Consola\\PetCare.App.Consola.csproj",
+      "packagesPath": "C:\\Users\\pipeo\\.nuget\\packages\\",
+      "outputPath": "C:\\HOSPITALIZACION-EN-CASA-MASCOTAS\\PetCare.App\\PetCare.App.Consola\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Yuuto\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\pipeo\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
@@ -6063,8 +6063,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Yuuto\\Documents\\Code\\minTIC\\HOSPITALIZACION-EN-CASA-MASCOTAS\\PetCare.App\\PetCare.App.Persistencia\\PetCare.App.Persistencia.csproj": {
-              "projectPath": "C:\\Users\\Yuuto\\Documents\\Code\\minTIC\\HOSPITALIZACION-EN-CASA-MASCOTAS\\PetCare.App\\PetCare.App.Persistencia\\PetCare.App.Persistencia.csproj"
+            "C:\\HOSPITALIZACION-EN-CASA-MASCOTAS\\PetCare.App\\PetCare.App.Persistencia\\PetCare.App.Persistencia.csproj": {
+              "projectPath": "C:\\HOSPITALIZACION-EN-CASA-MASCOTAS\\PetCare.App\\PetCare.App.Persistencia\\PetCare.App.Persistencia.csproj"
             }
           }
         }

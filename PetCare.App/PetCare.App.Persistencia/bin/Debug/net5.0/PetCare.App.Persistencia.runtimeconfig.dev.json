@@ -1,8 +1,8 @@
 {
   "runtimeOptions": {
     "additionalProbingPaths": [
-      "C:\\Users\\Yuuto\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\Yuuto\\.nuget\\packages"
+      "C:\\Users\\pipeo\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\pipeo\\.nuget\\packages"
     ]
   }
 }

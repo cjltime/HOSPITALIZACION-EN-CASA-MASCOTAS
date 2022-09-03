@@ -50,8 +50,8 @@ namespace PetCare.App.Persistencia.Migrations
                     b.Property<int?>("HistoriaClinicaId")
                         .HasColumnType("int");
 
-                    b.Property<string>("Nacimiento")
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<DateTime>("Nacimiento")
+                        .HasColumnType("datetime2");
 
                     b.Property<string>("Nombre")
                         .HasColumnType("nvarchar(max)");
@@ -132,7 +132,7 @@ namespace PetCare.App.Persistencia.Migrations
 
                     b.HasIndex("VisitaId");
 
-                    b.ToTable("SignosVitales");
+                    b.ToTable("SignoVital");
                 });
 
             modelBuilder.Entity("PetCare.App.Dominio.Visita", b =>
@@ -166,7 +166,7 @@ namespace PetCare.App.Persistencia.Migrations
 
                     b.HasIndex("VeterinarioId");
 
-                    b.ToTable("Visitas");
+                    b.ToTable("Visita");
                 });
 
             modelBuilder.Entity("PetCare.App.Dominio.Propietario", b =>

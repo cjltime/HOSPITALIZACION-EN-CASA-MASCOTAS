@@ -8,7 +8,7 @@ namespace PetCare.App.Dominio
         public string raza {get; set;}
         public bool EstadDeSalud {get; set;}
         public string Ciudad {get; set;}
-        public string Nacimiento {get; set;}
+        public DateTime Nacimiento {get; set;}
         public GeneroMascota GeneroMascota{get;set;}
         public HistoriaClinica HistoriaClinica{get;set;}
         public Visita Visita{get;set;}

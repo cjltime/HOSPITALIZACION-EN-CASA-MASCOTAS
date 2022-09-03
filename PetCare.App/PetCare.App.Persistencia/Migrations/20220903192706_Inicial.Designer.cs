@@ -10,8 +10,8 @@ using PetCare.App.Persistencia;
 namespace PetCare.App.Persistencia.Migrations
 {
     [DbContext(typeof(AppContext))]
-    [Migration("20220830155025_Entidades")]
-    partial class Entidades
+    [Migration("20220903192706_Inicial")]
+    partial class Inicial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -52,8 +52,8 @@ namespace PetCare.App.Persistencia.Migrations
                     b.Property<int?>("HistoriaClinicaId")
                         .HasColumnType("int");
 
-                    b.Property<string>("Nacimiento")
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<DateTime>("Nacimiento")
+                        .HasColumnType("datetime2");
 
                     b.Property<string>("Nombre")
                         .HasColumnType("nvarchar(max)");
@@ -134,7 +134,7 @@ namespace PetCare.App.Persistencia.Migrations
 
                     b.HasIndex("VisitaId");
 
-                    b.ToTable("SignosVitales");
+                    b.ToTable("SignoVital");
                 });
 
             modelBuilder.Entity("PetCare.App.Dominio.Visita", b =>
@@ -168,7 +168,7 @@ namespace PetCare.App.Persistencia.Migrations
 
                     b.HasIndex("VeterinarioId");
 
-                    b.ToTable("Visitas");
+                    b.ToTable("Visita");
                 });
 
             modelBuilder.Entity("PetCare.App.Dominio.Propietario", b =>

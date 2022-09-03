@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace PetCare.App.Persistencia.Migrations
 {
-    public partial class Entidades : Migration
+    public partial class Inicial : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -42,7 +42,7 @@ namespace PetCare.App.Persistencia.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "Visitas",
+                name: "Visita",
                 columns: table => new
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
@@ -56,15 +56,15 @@ namespace PetCare.App.Persistencia.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Visitas", x => x.Id);
+                    table.PrimaryKey("PK_Visita", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_Visitas_HistoriasClinicas_HistoriaClinicaId",
+                        name: "FK_Visita_HistoriasClinicas_HistoriaClinicaId",
                         column: x => x.HistoriaClinicaId,
                         principalTable: "HistoriasClinicas",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Restrict);
                     table.ForeignKey(
-                        name: "FK_Visitas_Personas_VeterinarioId",
+                        name: "FK_Visita_Personas_VeterinarioId",
                         column: x => x.VeterinarioId,
                         principalTable: "Personas",
                         principalColumn: "Id",
@@ -81,7 +81,7 @@ namespace PetCare.App.Persistencia.Migrations
                     raza = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     EstadDeSalud = table.Column<bool>(type: "bit", nullable: false),
                     Ciudad = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    Nacimiento = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    Nacimiento = table.Column<DateTime>(type: "datetime2", nullable: false),
                     GeneroMascota = table.Column<int>(type: "int", nullable: false),
                     HistoriaClinicaId = table.Column<int>(type: "int", nullable: true),
                     VisitaId = table.Column<int>(type: "int", nullable: true),
@@ -103,15 +103,15 @@ namespace PetCare.App.Persistencia.Migrations
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Restrict);
                     table.ForeignKey(
-                        name: "FK_Mascotas_Visitas_VisitaId",
+                        name: "FK_Mascotas_Visita_VisitaId",
                         column: x => x.VisitaId,
-                        principalTable: "Visitas",
+                        principalTable: "Visita",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Restrict);
                 });
 
             migrationBuilder.CreateTable(
-                name: "SignosVitales",
+                name: "SignoVital",
                 columns: table => new
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
@@ -123,11 +123,11 @@ namespace PetCare.App.Persistencia.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_SignosVitales", x => x.Id);
+                    table.PrimaryKey("PK_SignoVital", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_SignosVitales_Visitas_VisitaId",
+                        name: "FK_SignoVital_Visita_VisitaId",
                         column: x => x.VisitaId,
-                        principalTable: "Visitas",
+                        principalTable: "Visita",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Restrict);
                 });
@@ -148,18 +148,18 @@ namespace PetCare.App.Persistencia.Migrations
                 column: "VisitaId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_SignosVitales_VisitaId",
-                table: "SignosVitales",
+                name: "IX_SignoVital_VisitaId",
+                table: "SignoVital",
                 column: "VisitaId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_Visitas_HistoriaClinicaId",
-                table: "Visitas",
+                name: "IX_Visita_HistoriaClinicaId",
+                table: "Visita",
                 column: "HistoriaClinicaId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_Visitas_VeterinarioId",
-                table: "Visitas",
+                name: "IX_Visita_VeterinarioId",
+                table: "Visita",
                 column: "VeterinarioId");
         }
 
@@ -169,10 +169,10 @@ namespace PetCare.App.Persistencia.Migrations
                 name: "Mascotas");
 
             migrationBuilder.DropTable(
-                name: "SignosVitales");
+                name: "SignoVital");
 
             migrationBuilder.DropTable(
-                name: "Visitas");
+                name: "Visita");
 
             migrationBuilder.DropTable(
                 name: "HistoriasClinicas");

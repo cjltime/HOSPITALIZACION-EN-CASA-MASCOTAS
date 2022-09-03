@@ -10,7 +10,7 @@ using PetCare.App.Persistencia;
 namespace PetCare.App.Persistencia.Migrations
 {
     [DbContext(typeof(AppContext))]
-    [Migration("20220830155025_Entidades")]
+    [Migration("20220903210025_Entidades")]
     partial class Entidades
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

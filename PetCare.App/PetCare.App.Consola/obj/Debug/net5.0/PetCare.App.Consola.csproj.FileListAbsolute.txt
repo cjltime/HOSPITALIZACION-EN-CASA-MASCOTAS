@@ -1,0 +1,5 @@
+C:\Users\Yuuto\Documents\Code\minTIC\HOSPITALIZACION-EN-CASA-MASCOTAS\PetCare.App\PetCare.App.Consola\obj\Debug\net5.0\PetCare.App.Consola.csproj.AssemblyReference.cache
+C:\Users\Yuuto\Documents\Code\minTIC\HOSPITALIZACION-EN-CASA-MASCOTAS\PetCare.App\PetCare.App.Consola\obj\Debug\net5.0\PetCare.App.Consola.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Yuuto\Documents\Code\minTIC\HOSPITALIZACION-EN-CASA-MASCOTAS\PetCare.App\PetCare.App.Consola\obj\Debug\net5.0\PetCare.App.Consola.AssemblyInfoInputs.cache
+C:\Users\Yuuto\Documents\Code\minTIC\HOSPITALIZACION-EN-CASA-MASCOTAS\PetCare.App\PetCare.App.Consola\obj\Debug\net5.0\PetCare.App.Consola.AssemblyInfo.cs
+C:\Users\Yuuto\Documents\Code\minTIC\HOSPITALIZACION-EN-CASA-MASCOTAS\PetCare.App\PetCare.App.Consola\obj\Debug\net5.0\PetCare.App.Consola.csproj.CoreCompileInputs.cache

@@ -1,0 +1,10 @@
+C:\Users\Yuuto\Documents\Code\minTIC\HOSPITALIZACION-EN-CASA-MASCOTAS\PetCare.App\PetCare.App.Dominio\bin\Debug\netstandard2.0\PetCare.App.Dominio.deps.json
+C:\Users\Yuuto\Documents\Code\minTIC\HOSPITALIZACION-EN-CASA-MASCOTAS\PetCare.App\PetCare.App.Dominio\bin\Debug\netstandard2.0\PetCare.App.Dominio.dll
+C:\Users\Yuuto\Documents\Code\minTIC\HOSPITALIZACION-EN-CASA-MASCOTAS\PetCare.App\PetCare.App.Dominio\bin\Debug\netstandard2.0\PetCare.App.Dominio.pdb
+C:\Users\Yuuto\Documents\Code\minTIC\HOSPITALIZACION-EN-CASA-MASCOTAS\PetCare.App\PetCare.App.Dominio\obj\Debug\netstandard2.0\PetCare.App.Dominio.csproj.AssemblyReference.cache
+C:\Users\Yuuto\Documents\Code\minTIC\HOSPITALIZACION-EN-CASA-MASCOTAS\PetCare.App\PetCare.App.Dominio\obj\Debug\netstandard2.0\PetCare.App.Dominio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Yuuto\Documents\Code\minTIC\HOSPITALIZACION-EN-CASA-MASCOTAS\PetCare.App\PetCare.App.Dominio\obj\Debug\netstandard2.0\PetCare.App.Dominio.AssemblyInfoInputs.cache
+C:\Users\Yuuto\Documents\Code\minTIC\HOSPITALIZACION-EN-CASA-MASCOTAS\PetCare.App\PetCare.App.Dominio\obj\Debug\netstandard2.0\PetCare.App.Dominio.AssemblyInfo.cs
+C:\Users\Yuuto\Documents\Code\minTIC\HOSPITALIZACION-EN-CASA-MASCOTAS\PetCare.App\PetCare.App.Dominio\obj\Debug\netstandard2.0\PetCare.App.Dominio.csproj.CoreCompileInputs.cache
+C:\Users\Yuuto\Documents\Code\minTIC\HOSPITALIZACION-EN-CASA-MASCOTAS\PetCare.App\PetCare.App.Dominio\obj\Debug\netstandard2.0\PetCare.App.Dominio.dll
+C:\Users\Yuuto\Documents\Code\minTIC\HOSPITALIZACION-EN-CASA-MASCOTAS\PetCare.App\PetCare.App.Dominio\obj\Debug\netstandard2.0\PetCare.App.Dominio.pdb

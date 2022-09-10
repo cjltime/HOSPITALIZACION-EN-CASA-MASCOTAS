@@ -1,0 +1,9 @@
+C:\hospitalizacion\hospiencasa\PetCare.App.Frontend\obj\Debug\net5.0\PetCare.App.Frontend.csproj.AssemblyReference.cache
+C:\hospitalizacion\hospiencasa\PetCare.App.Frontend\obj\Debug\net5.0\PetCare.App.Frontend.GeneratedMSBuildEditorConfig.editorconfig
+C:\hospitalizacion\hospiencasa\PetCare.App.Frontend\obj\Debug\net5.0\PetCare.App.Frontend.AssemblyInfoInputs.cache
+C:\hospitalizacion\hospiencasa\PetCare.App.Frontend\obj\Debug\net5.0\PetCare.App.Frontend.AssemblyInfo.cs
+C:\hospitalizacion\hospiencasa\PetCare.App.Frontend\obj\Debug\net5.0\PetCare.App.Frontend.csproj.CoreCompileInputs.cache
+C:\hospitalizacion\hospiencasa\PetCare.App.Frontend\obj\Debug\net5.0\PetCare.App.Frontend.MvcApplicationPartsAssemblyInfo.cache
+C:\hospitalizacion\hospiencasa\PetCare.App.Frontend\obj\Debug\net5.0\PetCare.App.Frontend.RazorAssemblyInfo.cache
+C:\hospitalizacion\hospiencasa\PetCare.App.Frontend\obj\Debug\net5.0\PetCare.App.Frontend.RazorAssemblyInfo.cs
+C:\hospitalizacion\hospiencasa\PetCare.App.Frontend\obj\Debug\net5.0\PetCare.App.Frontend.MvcApplicationPartsAssemblyInfo.cs

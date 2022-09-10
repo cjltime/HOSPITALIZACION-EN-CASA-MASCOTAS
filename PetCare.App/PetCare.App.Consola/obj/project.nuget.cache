@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8XQrc+opyJB8ghoFhTLnBBp1jhPSzcCELO6D+5gLm00gdVpGWvswHUEryoOxa4g+avGWsuq8tNlHcXPtpuLaBg==",
+  "dgSpecHash": "mV522dlL0jYzxjo8F4Stxjqi6gKGyhVFjEvXYVmxutzXOzanqlxAcdUD//5+9hGa9UiuJJdUtNUujt5xiku6xA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\hp\\Documents\\mintic\\HOSPITALIZACION-EN-CASA-MASCOTAS\\PetCare.App\\PetCare.App.Consola\\PetCare.App.Consola.csproj",
+  "projectFilePath": "C:\\hospitalizacion\\hospiencasa\\PetCare.App.Consola\\PetCare.App.Consola.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\hp\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\hp\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
@@ -99,7 +99,8 @@
     "C:\\Users\\hp\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\hp\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
     "C:\\Users\\hp\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
-    "C:\\Users\\hp\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
+    "C:\\Users\\hp\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512",
+    "C:\\Users\\hp\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.17\\microsoft.netcore.app.host.win-x64.5.0.17.nupkg.sha512"
   ],
   "logs": []
 }

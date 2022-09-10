@@ -1,7 +1,7 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {
+    "net5.0": {
       "Humanizer.Core/2.8.26": {
         "type": "package",
         "compile": {
@@ -1754,7 +1754,7 @@
       },
       "PetCare.App.Dominio/1.0.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v5.0",
+        "framework": ".NETStandard,Version=v2.1",
         "compile": {
           "bin/placeholder/PetCare.App.Dominio.dll": {}
         },
@@ -1764,7 +1764,7 @@
       },
       "PetCare.App.Persistencia/1.0.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v5.0",
+        "framework": ".NETStandard,Version=v2.1",
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "5.0.0",
           "Microsoft.EntityFrameworkCore.SqlServer": "5.0.0",
@@ -6033,8 +6033,10 @@
     }
   },
   "projectFileDependencyGroups": {
-    "net6.0": [
+    "net5.0": [
+      "Microsoft.EntityFrameworkCore >= 5.0.0",
       "Microsoft.EntityFrameworkCore.Design >= 5.0.0",
+      "PetCare.App.Dominio >= 1.0.0",
       "PetCare.App.Persistencia >= 1.0.0"
     ]
   },
@@ -6045,11 +6047,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\hp\\Documents\\mintic\\HOSPITALIZACION-EN-CASA-MASCOTAS\\PetCare.App\\PetCare.App.Consola\\PetCare.App.Consola.csproj",
+      "projectUniqueName": "C:\\hospitalizacion\\hospiencasa\\PetCare.App.Consola\\PetCare.App.Consola.csproj",
       "projectName": "PetCare.App.Consola",
-      "projectPath": "C:\\Users\\hp\\Documents\\mintic\\HOSPITALIZACION-EN-CASA-MASCOTAS\\PetCare.App\\PetCare.App.Consola\\PetCare.App.Consola.csproj",
+      "projectPath": "C:\\hospitalizacion\\hospiencasa\\PetCare.App.Consola\\PetCare.App.Consola.csproj",
       "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\hp\\Documents\\mintic\\HOSPITALIZACION-EN-CASA-MASCOTAS\\PetCare.App\\PetCare.App.Consola\\obj\\",
+      "outputPath": "C:\\hospitalizacion\\hospiencasa\\PetCare.App.Consola\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -6060,18 +6062,21 @@
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "net6.0"
+        "net5.0"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "net5.0": {
+          "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\hp\\Documents\\mintic\\HOSPITALIZACION-EN-CASA-MASCOTAS\\PetCare.App\\PetCare.App.Persistencia\\PetCare.App.Persistencia.csproj": {
-              "projectPath": "C:\\Users\\hp\\Documents\\mintic\\HOSPITALIZACION-EN-CASA-MASCOTAS\\PetCare.App\\PetCare.App.Persistencia\\PetCare.App.Persistencia.csproj"
+            "C:\\hospitalizacion\\hospiencasa\\PetCare.App.Dominio\\PetCare.App.Dominio.csproj": {
+              "projectPath": "C:\\hospitalizacion\\hospiencasa\\PetCare.App.Dominio\\PetCare.App.Dominio.csproj"
+            },
+            "C:\\hospitalizacion\\hospiencasa\\PetCare.App.Persistencia\\PetCare.App.Persistencia.csproj": {
+              "projectPath": "C:\\hospitalizacion\\hospiencasa\\PetCare.App.Persistencia\\PetCare.App.Persistencia.csproj"
             }
           }
         }
@@ -6083,9 +6088,13 @@
       }
     },
     "frameworks": {
-      "net6.0": {
-        "targetAlias": "net6.0",
+      "net5.0": {
+        "targetAlias": "net5.0",
         "dependencies": {
+          "Microsoft.EntityFrameworkCore": {
+            "target": "Package",
+            "version": "[5.0.0, )"
+          },
           "Microsoft.EntityFrameworkCore.Design": {
             "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
             "suppressParent": "All",
@@ -6104,6 +6113,12 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[5.0.17, 5.0.17]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"

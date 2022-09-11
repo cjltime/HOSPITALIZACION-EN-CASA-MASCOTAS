@@ -1,21 +1,25 @@
 ﻿@page
-@model PetCare.App.Frontend.Pages.DetailsModel 
+@model PetCare.App.Frontend.Pages.DetailsModel
 @{
 }
 <h2>Datos detallados de la Mascota @Model.Mascota.Nombre</h2>
-    <div>
-        Nombre : @Model.Mascota.Nombre
-    </div>
-    <div>
-        Raza : @Model.Mascota.raza
-    </div>
-    <div>
-        Estado de Salud : @Model.Mascota.EstadDeSalud
-    </div>
-    <div>
-        Propietario : @Model.Mascota.Propietario
-    </div>
-    <div>
-        ciudad : @Model.Mascota.Ciudad
-    </div>
-    <a asp-page="./ListP" class="btn-default">Volver a la Lista de Mascotas.. </a>
+<div>
+    Nombre : @Model.Mascota.Nombre
+</div>
+<div>
+    Raza : @Model.Mascota.raza
+</div>
+<div>
+    Estado de Salud : @Model.Mascota.EstadDeSalud
+</div>
+<div>
+    Propietario : @Model.Mascota.Propietario
+</div>
+<div>
+    ciudad : @Model.Mascota.Ciudad
+</div>
+<a asp-page="./ListP" class="btn-default">Volver a la Lista de Mascotas.. </a>
+<div>
+    <button type="submit" class="btn btn-primary">Borrar</button>
+
+</div>

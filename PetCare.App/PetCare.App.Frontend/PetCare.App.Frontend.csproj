@@ -3,6 +3,7 @@
   <ItemGroup>
     <ProjectReference Include="..\PetCare.App.Persistencia\PetCare.App.Persistencia.csproj" />
     <ProjectReference Include="..\PetCare.App.Dominio\PetCare.App.Dominio.csproj" />
+    
   </ItemGroup>
 
   <ItemGroup>

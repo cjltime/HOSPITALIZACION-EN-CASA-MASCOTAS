@@ -3,6 +3,7 @@ using System.ComponentModel;
 using Microsoft.EntityFrameworkCore;
 using PetCare.App.Dominio;
 
+
 using System.Collections.Generic;
 using PetCare.App.Persistencia;
 
@@ -29,8 +30,9 @@ namespace PetCare.App.Persistencia
             if(!optionsBuilder.IsConfigured) 
             {
                 optionsBuilder
-                .UseSqlServer("Data Source = (localdb)\\MSSQLLocalDB; Initial Catalog =PetCareDataCJL");
+                .UseSqlServer("Data Source = (localdb)\\MSSQLLocalDB; Initial Catalog =PetCareDataCJL1");
             }
         } 
     }
+    
 }

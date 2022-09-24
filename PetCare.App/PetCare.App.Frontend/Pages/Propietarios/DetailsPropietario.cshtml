@@ -1,0 +1,24 @@
+﻿@page
+@model PetCare.App.Frontend.Pages.DetailsPropietarioModel
+@{
+}
+<h2>Datos detallados del Proíetario @Model.Propietario.Nombre</h2>
+<div>
+    Nombre : @Model.Propietario.Nombre
+</div>
+<div>
+    Apellidos : @Model.Propietario.Apellidos
+</div>
+<div>
+    Direccion : @Model.Propietario.Direccion
+</div>
+<div>
+    Telefono : @Model.Propietario.NumeroTelefono
+</div>
+<div>
+    Correo : @Model.Propietario.Correo
+</div>
+<div>
+    Edad : @Model.Propietario.Edad
+</div>
+<a asp-page="./ListPropietario" class="btn-default">Volver a la Lista Propietarios.. </a>

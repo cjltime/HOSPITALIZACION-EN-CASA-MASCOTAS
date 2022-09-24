@@ -1,0 +1,32 @@
+﻿@page
+@model PetCare.App.Frontend.Pages.ListVModel
+@{
+}
+<h1>Listado de Visitas</h1>
+<table class="table">
+    @foreach (var visita in Model.Visitas)
+    {
+    <tr>
+            <td>@visita.Id </td>
+            <td>@visita.FechaVisita</td>
+            <td>
+                <a class="btn btn-primary table-btn" asp-page="./DetailsV" asp-route-visitaId="@visita.Id"
+                title="Detalles">
+                    <i class="fas fa-info-circle fa-lg"></i> </a>
+            </td>
+
+            <td>
+                <a class="btn btn-primary table-btn" asp-page="./EditV" asp-route-visitaId="@visita.Id" title="Editar">
+                    <i class="fas fa-address-book fa-lg" aria-hidden="true"></i>
+                </a>
+
+            <td>
+                <a class="btn btn-primary table-btn" asp-page="./DeleteV" asp-route-visitaId="@visita.Id" title="Borrar">
+                    <i class="fas fa-location-arrow fa-lg"></i>
+                </a>
+            </td>
+    </tr>
+    }
+</table>
+
+<a asp-page=".\EditV" class="btn btn-primary">Adicionar una Visita</a>

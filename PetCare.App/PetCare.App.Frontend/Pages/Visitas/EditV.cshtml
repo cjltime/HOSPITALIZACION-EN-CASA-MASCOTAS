@@ -1,0 +1,49 @@
+@page
+@model PetCare.App.Frontend.Pages.EditVModel
+@{
+    ViewData["Title"] = "Editar";
+}
+
+<h2>Edicion de la Visitas: @Model.Visita.Id</h2>
+
+
+<a asp-page="./ListV" class="btn-default">Volver a la Lista de Visitas.. </a>
+<form method="post">
+    <input type="hidden" asp-for="Visita.Id" />
+
+    <div class="form-group">
+        <label asp-for="Visita.FechaVisita"></label>
+        <input asp-for="Visita.FechaVisita" class="form-control">
+        <span class="text-danger" asp-validation-for="Visita.FechaVisita"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Visita.Recomendaciones"></label>
+        <input asp-for="Visita.Recomendaciones" class="form-control">
+        <span class="text-danger" asp-validation-for="Visita.Recomendaciones"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Visita.Diagnostico"></label>
+        <input asp-for="Visita.Diagnostico" class="form-control">
+        <span class="text-danger" asp-validation-for="Visita.Diagnostico"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Visita.Medicamentos"></label>
+        <input asp-for="Visita.Medicamentos" class="form-control">
+        <span class="text-danger" asp-validation-for="Visita.Medicamentos"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Visita.Veterinario"></label>
+        <input asp-for="Visita.Veterinario" class="form-control">
+        <span class="text-danger" asp-validation-for="Visita.Veterinario"></span>
+    </div>
+
+
+
+    <button type="submit" class="btn btn-primary">Grabar</button>
+    <button type="submit" class="btn btn-primary">Signos Vitales</button>
+
+
+
+
+
+</form>

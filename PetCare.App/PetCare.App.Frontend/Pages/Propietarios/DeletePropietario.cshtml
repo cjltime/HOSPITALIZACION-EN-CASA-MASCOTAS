@@ -1,0 +1,49 @@
+@page
+@model PetCare.App.Frontend.Pages.DeletePropietarioModel
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h2>Esta seguro de borrar El Propietario: @Model.Propietario.Nombre</h2>
+
+
+<a asp-page="./ListPropietario" class="btn-default">Volver a la Lista de Propietarios.. </a>
+<form method="post">
+    <input type="hidden" asp-for="Propietario.Id" />
+
+    <div class="form-group">
+        <label asp-for="Propietario.Nombre"></label>
+        <input asp-for="Propietario.Nombre" class="form-control">
+        <span class="text-danger" asp-validation-for="Propietario.Nombre"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Propietario.Apellidos"></label>
+        <input asp-for="Propietario.Apellidos" class="form-control">
+        <span class="text-danger" asp-validation-for="Propietario.Apellidos"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Propietario.NumeroTelefono"></label>
+        <input asp-for="Propietario.NumeroTelefono" class="form-control" >
+        <span class="text-danger" asp-validation-for="Propietario.NumeroTelefono"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Propietario.Genero"></label>
+        <input asp-for="Propietario.Genero" class="form-control" >
+        <span class="text-danger" asp-validation-for="Propietario.Genero"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Propietario.Correo"></label>
+        <input asp-for="Propietario.Correo" class="form-control" >
+        <span class="text-danger" asp-validation-for="Propietario.Correo"></span>
+    </div>
+    <br/> 
+    <div>
+        <button asp-page="./ListPropietarios type=" submit" class="btn btn-primary">Borrar </button>
+    </div>
+
+
+
+
+
+
+</form>

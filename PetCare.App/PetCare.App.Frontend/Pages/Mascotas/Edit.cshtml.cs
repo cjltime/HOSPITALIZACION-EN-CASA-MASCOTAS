@@ -12,6 +12,7 @@ namespace PetCare.App.Frontend.Pages
     public class EditModel : PageModel
     {
         private readonly IRepositorioMascota    repositorioMascotas;
+        private readonly IRepositorioPropietario    repositorioPropietarios;
         [BindProperty]
         
         public Mascota Mascota {get;set;}
@@ -41,6 +42,8 @@ namespace PetCare.App.Frontend.Pages
             if(Mascota.Id>0)
             {
             Mascota=repositorioMascotas.UpdateMascota(Mascota);
+            
+        
             }
             else
             {

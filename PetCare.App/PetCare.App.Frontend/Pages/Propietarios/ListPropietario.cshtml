@@ -1,0 +1,32 @@
+﻿@page
+@model PetCare.App.Frontend.Pages.ListPropietarioModel
+@{
+}
+<h1>Listado de Propietarios</h1>
+<table class="table">
+    @foreach (var propietario in Model.Propietarios)
+    {
+        <tr>
+            <td>@propietario.Nombre</td>
+            <td>@propietario.Apellidos</td>
+            
+            <td>
+                <a class="btn btn-primary table-btn" asp-page="./DetailsPropietario" asp-route-propietarioId="@propietario.Id"
+                title="Detalles">
+                    <i class="fas fa-info-circle fa-lg"></i> </a>
+            </td>
+
+            <td>
+                <a class="btn btn-primary table-btn" asp-page="./EditPropietario" asp-route-propietarioId="@propietario.Id" title="Editar">
+                    <i class="fas fa-address-book fa-lg" aria-hidden="true"></i>
+                </a>
+
+            <td>
+                <a class="btn btn-primary table-btn" asp-page="./DeletePropietario" asp-route-propietarioId="@propietario.Id" title="Borrar">
+                    <i class="fas fa-location-arrow fa-lg"></i>
+                </a>
+            </td </tr>
+    }
+</table>
+
+<a asp-page=".\EditPropietario" class="btn btn-primary">Adicionar un Propietario</a>

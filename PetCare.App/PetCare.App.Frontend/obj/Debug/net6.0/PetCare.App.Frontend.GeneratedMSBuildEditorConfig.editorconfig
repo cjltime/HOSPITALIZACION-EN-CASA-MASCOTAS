@@ -15,12 +15,20 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\hp\Documents\mintic\HOSPITALIZACION-EN-CASA-MASCOTAS\PetCare.App\PetCare.App.Frontend
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/hp/Documents/mintic/HOSPITALIZACION-EN-CASA-MASCOTAS/PetCare.App/PetCare.App.Frontend/Areas/Identity/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/hp/Documents/mintic/HOSPITALIZACION-EN-CASA-MASCOTAS/PetCare.App/PetCare.App.Frontend/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/hp/Documents/mintic/HOSPITALIZACION-EN-CASA-MASCOTAS/PetCare.App/PetCare.App.Frontend/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Documents/mintic/HOSPITALIZACION-EN-CASA-MASCOTAS/PetCare.App/PetCare.App.Frontend/Pages/Mascotas/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWFzY290YXNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/hp/Documents/mintic/HOSPITALIZACION-EN-CASA-MASCOTAS/PetCare.App/PetCare.App.Frontend/Pages/Mascotas/Details.cshtml]
@@ -39,8 +47,36 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/hp/Documents/mintic/HOSPITALIZACION-EN-CASA-MASCOTAS/PetCare.App/PetCare.App.Frontend/Pages/Propietarios/DeletePropietario.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvcGlldGFyaW9zXERlbGV0ZVByb3BpZXRhcmlvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Documents/mintic/HOSPITALIZACION-EN-CASA-MASCOTAS/PetCare.App/PetCare.App.Frontend/Pages/Propietarios/DetailsPropietario.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvcGlldGFyaW9zXERldGFpbHNQcm9waWV0YXJpby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Documents/mintic/HOSPITALIZACION-EN-CASA-MASCOTAS/PetCare.App/PetCare.App.Frontend/Pages/Propietarios/EditPropietario.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvcGlldGFyaW9zXEVkaXRQcm9waWV0YXJpby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Documents/mintic/HOSPITALIZACION-EN-CASA-MASCOTAS/PetCare.App/PetCare.App.Frontend/Pages/Propietarios/ListPropietario.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvcGlldGFyaW9zXExpc3RQcm9waWV0YXJpby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Documents/mintic/HOSPITALIZACION-EN-CASA-MASCOTAS/PetCare.App/PetCare.App.Frontend/Pages/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/hp/Documents/mintic/HOSPITALIZACION-EN-CASA-MASCOTAS/PetCare.App/PetCare.App.Frontend/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Documents/mintic/HOSPITALIZACION-EN-CASA-MASCOTAS/PetCare.App/PetCare.App.Frontend/Pages/Visitas/EditV.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmlzaXRhc1xFZGl0Vi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Documents/mintic/HOSPITALIZACION-EN-CASA-MASCOTAS/PetCare.App/PetCare.App.Frontend/Pages/Visitas/ListV.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmlzaXRhc1xMaXN0Vi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/hp/Documents/mintic/HOSPITALIZACION-EN-CASA-MASCOTAS/PetCare.App/PetCare.App.Frontend/Pages/_ViewImports.cshtml]

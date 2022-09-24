@@ -1,0 +1,17 @@
+C:\Users\hp\Documents\mintic\HOSPITALIZACION-EN-CASA-MASCOTAS\PetCare.App\PetCare.App.Persistencia\obj\Debug\net5.0\PetCare.App.Persistencia.csproj.AssemblyReference.cache
+C:\Users\hp\Documents\mintic\HOSPITALIZACION-EN-CASA-MASCOTAS\PetCare.App\PetCare.App.Persistencia\obj\Debug\net5.0\PetCare.App.Persistencia.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hp\Documents\mintic\HOSPITALIZACION-EN-CASA-MASCOTAS\PetCare.App\PetCare.App.Persistencia\obj\Debug\net5.0\PetCare.App.Persistencia.AssemblyInfoInputs.cache
+C:\Users\hp\Documents\mintic\HOSPITALIZACION-EN-CASA-MASCOTAS\PetCare.App\PetCare.App.Persistencia\obj\Debug\net5.0\PetCare.App.Persistencia.AssemblyInfo.cs
+C:\Users\hp\Documents\mintic\HOSPITALIZACION-EN-CASA-MASCOTAS\PetCare.App\PetCare.App.Persistencia\obj\Debug\net5.0\PetCare.App.Persistencia.csproj.CoreCompileInputs.cache
+C:\Users\hp\Documents\mintic\HOSPITALIZACION-EN-CASA-MASCOTAS\PetCare.App\PetCare.App.Persistencia\bin\Debug\net5.0\PetCare.App.Persistencia.deps.json
+C:\Users\hp\Documents\mintic\HOSPITALIZACION-EN-CASA-MASCOTAS\PetCare.App\PetCare.App.Persistencia\bin\Debug\net5.0\PetCare.App.Persistencia.runtimeconfig.json
+C:\Users\hp\Documents\mintic\HOSPITALIZACION-EN-CASA-MASCOTAS\PetCare.App\PetCare.App.Persistencia\bin\Debug\net5.0\PetCare.App.Persistencia.runtimeconfig.dev.json
+C:\Users\hp\Documents\mintic\HOSPITALIZACION-EN-CASA-MASCOTAS\PetCare.App\PetCare.App.Persistencia\bin\Debug\net5.0\PetCare.App.Persistencia.dll
+C:\Users\hp\Documents\mintic\HOSPITALIZACION-EN-CASA-MASCOTAS\PetCare.App\PetCare.App.Persistencia\bin\Debug\net5.0\ref\PetCare.App.Persistencia.dll
+C:\Users\hp\Documents\mintic\HOSPITALIZACION-EN-CASA-MASCOTAS\PetCare.App\PetCare.App.Persistencia\bin\Debug\net5.0\PetCare.App.Persistencia.pdb
+C:\Users\hp\Documents\mintic\HOSPITALIZACION-EN-CASA-MASCOTAS\PetCare.App\PetCare.App.Persistencia\bin\Debug\net5.0\PetCare.App.Dominio.dll
+C:\Users\hp\Documents\mintic\HOSPITALIZACION-EN-CASA-MASCOTAS\PetCare.App\PetCare.App.Persistencia\bin\Debug\net5.0\PetCare.App.Dominio.pdb
+C:\Users\hp\Documents\mintic\HOSPITALIZACION-EN-CASA-MASCOTAS\PetCare.App\PetCare.App.Persistencia\obj\Debug\net5.0\PetCare.App.Persistencia.dll
+C:\Users\hp\Documents\mintic\HOSPITALIZACION-EN-CASA-MASCOTAS\PetCare.App\PetCare.App.Persistencia\obj\Debug\net5.0\ref\PetCare.App.Persistencia.dll
+C:\Users\hp\Documents\mintic\HOSPITALIZACION-EN-CASA-MASCOTAS\PetCare.App\PetCare.App.Persistencia\obj\Debug\net5.0\PetCare.App.Persistencia.pdb
+C:\Users\hp\Documents\mintic\HOSPITALIZACION-EN-CASA-MASCOTAS\PetCare.App\PetCare.App.Persistencia\obj\Debug\net5.0\PetCare.App.Persistencia.genruntimeconfig.cache

@@ -2,7 +2,12 @@ using System.Collections.Generic;
 
 using System.Linq;
 
+using Microsoft.EntityFrameworkCore;
+
+using System.Linq;
+
 using PetCare.App.Dominio;
+
 
 namespace PetCare.App.Persistencia
 {
@@ -37,16 +42,16 @@ namespace PetCare.App.Persistencia
         }
         IEnumerable<Mascota> IRepositorioMascota.GetAllPets()
         {
-            return _appContext.Mascotas ;
+            return _appContext.Mascotas.Include(p => p.Propietario);
         }
         public IEnumerable<Mascota> GetAllMascotas_()
         {
-            return _appContext.Mascotas ;
+            return _appContext.Mascotas.Include(p => p.Propietario) ;
         }
                
         Mascota IRepositorioMascota.GetMascota(int idMascota)
         {
-            return _appContext.Mascotas.FirstOrDefault(p => p.Id == idMascota);
+            return _appContext.Mascotas.FirstOrDefault(m => m.Id == idMascota);
         }
         
         Mascota IRepositorioMascota.UpdateMascota(Mascota mascota)
@@ -61,6 +66,7 @@ namespace PetCare.App.Persistencia
                 MascotaEncontrada.Ciudad = mascota.Ciudad;
                 MascotaEncontrada.Nacimiento = mascota.Nacimiento;
                 MascotaEncontrada.GeneroMascota = mascota.GeneroMascota;
+                MascotaEncontrada.Propietario = mascota.Propietario;
                 
                 _appContext.SaveChanges();
             }
